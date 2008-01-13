@@ -1,4 +1,5 @@
-Summary:	A  HTML Parser is a Java library used to parse HTML in either a linear or nested fashion
+Summary:	HTML Parser - Java library used to parse HTML in either a linear or nested fashion
+Summary(pl.UTF-8):	HTML Parser - biblioteka Javy do analizy HTML-a w sposób liniowy lub zagnieżdżony
 Name:		htmlparser
 Version:	1.6
 Release:	0.1
@@ -24,12 +25,23 @@ nested fashion. Primarily used for transformation or extraction, it
 features filters, visitors, custom tags and easy to use JavaBeans. It
 is a fast, robust and well tested package.
 
+%description -l pl.UTF-8
+HTML Parser to biblioteka Javy służąca do analizy HTML-a w sposób
+liniowy lub zagnieżdżony. Jest używana głównie do transformacji lub
+wyciągania danych; zawiera filtry, własne znaczniki i łatwe w użyciu
+JavaBeans. Jest szybkim, mającym duże możliwości i dobrze
+przetestowanym pakietem.
+
 %package javadoc
-Summary:	Javadoc for %{name}
+Summary:	Javadoc for HTML Parser
+Summary(pl.UTF-8):	Dokumentacja Javadoc do biblioteki HTML Parser
 Group:		Documentation
 
 %description javadoc
-Javadoc for %{name}.
+Javadoc for HTML Parser.
+
+%description javadoc -l pl.UTF-8
+Dokumentacja Javadoc do biblioteki HTML Parser.
 
 %prep
 %setup -q -n %{name}1_6
