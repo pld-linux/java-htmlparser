@@ -15,6 +15,7 @@ BuildRequires:	glibc-localedb-all
 BuildRequires:	jdk
 BuildRequires:	jpackage-utils >= 1.6
 BuildRequires:	rpmbuild(macros) >= 1.300
+BuildRequires:	unzip
 Requires:	jre
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
